@@ -3,6 +3,7 @@
 <head>
     <title>Your Product Documentation</title>
     <link rel="stylesheet" type="text/css" href="style.css">
+    <script type="text/javascript" src="script.js" defer></script>
 </head>
 <body>
     <header>
@@ -14,9 +15,9 @@
             </ul>
         </nav>
     </header>
-    <div class="sidebar">
-        <!-- Sub navigation links will go here -->
-        <!-- Example for Product1 -->
+    <div class="sidebar" id="sidebar">
+        <button onclick="toggleSidebar()">☰ Toggle Sidebar</button>
+        <!-- Sub navigation links -->
         <ul>
             <li><a href="#feature1">Feature1</a></li>
             <li><a href="#feature2">Feature2</a></li>
