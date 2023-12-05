@@ -1,14 +1,37 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    flex-direction: column;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+header {
+    background-color: #5a2d82; /* Dark purple */
+    color: white;
+    padding: 10px 20px;
+}
+
+.main-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-right: 20px;
+}
+
+.main-nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
 .sidebar {
     width: 200px;
-    background-color: #5a2d82; /* Dark purple */
+    background-color: #333; /* Adjust color */
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
@@ -20,7 +43,7 @@ body {
 }
 
 .sidebar ul li a {
-    color: white; /* White text */
+    color: white;
     text-decoration: none;
     display: block;
     margin-bottom: 10px;
@@ -30,7 +53,7 @@ body {
     flex-grow: 1;
     padding: 20px;
     background-color: #b19cd9; /* Light purple */
-    color: white; /* White text */
+    color: white;
 }
 
-/* Additional styles can be added here */
+/* Additional styles */
