@@ -1,13 +1,17 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 .sidebar {
     width: 200px;
-    background-color: #333; /* Adjust to match your color scheme */
+    background-color: #5a2d82; /* Dark purple */
     height: 100vh;
     padding: 20px;
+    box-sizing: border-box;
 }
 
 .sidebar ul {
@@ -16,14 +20,17 @@ body {
 }
 
 .sidebar ul li a {
-    color: white;
+    color: white; /* White text */
     text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
 }
 
 .content {
     flex-grow: 1;
     padding: 20px;
-    background-color: #f0f0f0; /* Adjust to match your color scheme */
+    background-color: #b19cd9; /* Light purple */
+    color: white; /* White text */
 }
 
-/* You can add more custom styles here */
+/* Additional styles can be added here */
