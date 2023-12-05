@@ -29,13 +29,21 @@ header {
     text-decoration: none;
 }
 
+/* ... (Previous CSS styles) ... */
+
 .sidebar {
     width: 200px;
     background-color: #333; /* Adjust color */
     height: 100vh;
     padding: 20px;
     box-sizing: border-box;
+    position: fixed; /* Make sidebar fixed position */
+    left: 0;
+    transition: left 0.3s;
 }
+
+/* Other styles remain the same */
+
 
 .sidebar ul {
     list-style-type: none;
@@ -57,3 +65,5 @@ header {
 }
 
 /* Additional styles */
+
+
